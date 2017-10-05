@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PUBLICFOLDER=""
+PUBLICFOLDER="public"
 
 echo "⇒ Boltflow 🚀 - version 0.5.3"
 
@@ -9,17 +9,6 @@ PWD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Store bolt's install directory
 WD="$PWD/www"
-
-if [[ $PUBLICFOLDER = "" ]] && [[ -d "$WD/public_html" ]] ; then
-    PUBLICFOLDER="public_html"
-elif [[ $PUBLICFOLDER = "" ]] && [[ -d "$WD/html" ]] ; then
-    PUBLICFOLDER="html"
-elif [[ $PUBLICFOLDER = "" ]] && [[ -d "$WD/public" ]] ; then
-    PUBLICFOLDER="public"
-elif [[ $PUBLICFOLDER = "" ]] ; then
-    echo ""
-    echo "ERROR: Could not determine the PUBLICFOLDER. Please edit boltflow.sh, and set PUBLICFOLDER manually."
-fi
 
 if [[ $1 = "update" ]] ; then
     COMPOSERCOMMAND="update"
