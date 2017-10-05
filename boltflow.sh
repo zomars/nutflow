@@ -4,11 +4,8 @@ PUBLICFOLDER="public"
 
 echo "⇒ Boltflow 🚀 - version 0.5.3"
 
-# Store the script working directory
-PWD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
 # Store bolt's install directory
-WD="$PWD/www"
+WD="www"
 
 if [[ $1 = "update" ]] ; then
     COMPOSERCOMMAND="update"
