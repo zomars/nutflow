@@ -21,10 +21,9 @@ jspm_packages
 # Ignore passwords
 .secrets.json
 
-# Don't upload the dev version of the theme
-/www/public/theme/base-inuitcss_dev
-#/config/deploy.yml
-
-# Don't track initial config files as Bolt generates them
-www/app/config/*.yml
-www/extensions/composer.json
+# Ignore everything in the www folder except for the production theme
+/www/
+!/www/.gitignore
+!/www/public/
+!/www/public/theme/
+!/www/public/theme/base-inuitcss

@@ -8,6 +8,9 @@ files/
 # Modify this, only if you've changed the default folder in .bolt.yml
 public/bolt-public/
 
+# Don't track deploy server information
+.deploy.yml
+
 # -----------------------------------------------------------------------------
 
 # Config files with '_local' should *never* go into git
