@@ -2,7 +2,7 @@
 
 Nutflow helps you create a Bolt CMS website easily and setup an automated development environment.
 
-Everything here is built directly with Gulp, and is based on and built around multiple sources like [Boltflow](http://boltflow.work/), [Fabrica Dev Kit](https://github.com/fabrica-wp/fabrica-dev-kit) and (Automate Your Workflow)[https://automateyourworkflow.com/].
+Everything here is built directly with Gulp, and is based on and built around multiple sources like [Boltflow](http://boltflow.work/), [Fabrica Dev Kit](https://github.com/fabrica-wp/fabrica-dev-kit) and [Automate Your Workflow](https://automateyourworkflow.com/).
 
 ## Installation
 
