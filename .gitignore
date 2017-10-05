@@ -23,6 +23,3 @@ jspm_packages
 
 # Ignore everything in the www folder except for the gitignore for deploy
 /www/
-!/www/.gitignore
-!/www/app/
-!/www/app/nut
