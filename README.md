@@ -14,12 +14,14 @@ $ yarn
 
 ## Project Structure
 
-Nutflow's project is divided into three main folders:
+Nutflow's project is divided into four main folders:
 
 - `config`
 - `gulp`
 - `src`
 - `www`
+
+`config` is where you keep track of Bolt configuration files, these will be automatically copied to `./www/app/config` folder. Except for the `deploy.yml` file, which will be copied and renamed to `./www/.deploy.yml`.
 
 `src` is where you would place all your source files. This includes all your code, images, fonts and everything else.
 
