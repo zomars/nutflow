@@ -1,0 +1,15 @@
+///* ========================================================================
+//   #ALIASES
+//   ======================================================================== */
+
+// Reassign `$inuit-global-spacing-unit` to `$unit`.
+$unit:          $inuit-global-spacing-unit;
+$unit-tiny:     $inuit-global-spacing-unit-tiny;
+$unit-small:    $inuit-global-spacing-unit-small;
+$unit-large:    $inuit-global-spacing-unit-large;
+$unit-huge:     $inuit-global-spacing-unit-huge;
+
+// Reassign lengthy font-size mixin to `font-size()`.
+@mixin font-size($args...) {
+  @include inuit-font-size($args...);
+}

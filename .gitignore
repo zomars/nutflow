@@ -1,0 +1,26 @@
+# osx noise
+.DS_Store
+profile
+
+#ignore sass caches
+.sass-cache
+
+#ignore sublime projects
+.sublime-project
+.sublime-workspace
+
+#ignore vscode settings
+.vscode
+
+#ignore packages
+node_modules
+bower_components
+jspm_packages
+*.log
+
+# Ignore passwords
+.secrets.json
+
+# Don't upload the dev version of the theme
+/www/public/theme/base-inuitcss_dev
+/config/deploy.yml

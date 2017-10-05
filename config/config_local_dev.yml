@@ -1,0 +1,16 @@
+# This is the DEVELOPMENT version of config_local.yml
+
+# Database credentials.
+database:
+  driver: mysql
+  databasename: bolt
+  username: database_user
+  password: 'hunter42'
+
+# Debug settings
+debug: true
+debug_show_loggedoff: false
+debug_error_level: -1
+debug_error_use_symfony: false      # When set to true, Symfony Profiler will be used for exception display when possible
+
+strict_variables: true

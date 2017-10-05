@@ -1,0 +1,19 @@
+{
+  "name": "boltflow",
+  "version": "1.0.0",
+  "authors": [
+    "zomars <zomars@me.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "inuitcss": "^6.0.0-beta.5"
+  }
+}
