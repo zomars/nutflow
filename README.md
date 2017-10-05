@@ -38,10 +38,10 @@ $ gulp
 When `gulp` is ran, Nutflow will look through all your source folders and execute the following tasks:
 
 - `configs` - Copies configuration files to `./www/app/config`
-- `clean` - to clean the `dev` directory
+- `clean` - to clean the `_dev` theme directory
 - `lint:js` - Check for code formats
-- `images` - Copies images to `dev` folder
-- `fonts` - Copies fonts to `dev` folder
+- `images` - Copies images to `_dev` theme folder
+- `fonts` - Copies fonts to `_dev` theme folder
 - `sass` - Compiles Sass into CSS (Also lint sass files)
 - `server` - Runs Bolt included php server
 - `webpack` - Compiles JavaScript with Webpack
