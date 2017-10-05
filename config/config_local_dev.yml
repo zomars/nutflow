@@ -2,10 +2,16 @@
 
 # Database credentials.
 database:
-  driver: mysql
-  databasename: bolt
-  username: database_user
-  password: 'hunter42'
+  driver: sqlite
+
+# database:
+#   driver: mysql
+#   databasename: bolt
+#   username: database_user
+#   password: 'hunter42'
+
+# Use development theme
+theme: base-inuitcss_dev
 
 # Debug settings
 debug: true
