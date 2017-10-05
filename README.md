@@ -109,31 +109,11 @@ The `--prod` flag is a custom flag introduced to tell Nutflow that you're buildi
 
 ## Deployment Phase
 
-Nutflow has three built-in methods to help you deploy your website. They are `rsync` and `simple`.
+Nutflow has two built-in methods to help you deploy your website. They are `rsync` and `simple`.
 
 You can set the deploy method by changing the `deploy` key in `gulp/config.js`.
 
-Make sure you add a `deploy.yml` file to the `config` folder. This file is already ignored to prevent you from accidentally committing it into your remote repository.
-
-Here's a sample `deploy.yml` file you can use:
-
-```yaml
-staging:
-    protocol: ftp
-    options:
-        host: example.com
-        root: my-site
-        username: deploy
-        password: 'your password goes here'
-
-production:
-    protocol: sftp
-    options:
-        host: example.com
-        username: deploy
-        password: 'your password goes here'
-        root: /var/www/sites/example.com
-```
+Make sure you edit the `deploy.yml` file located in th the `config` folder.
 
 ## Bugs & Contributing
 
