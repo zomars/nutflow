@@ -21,9 +21,6 @@ jspm_packages
 # Ignore passwords
 .secrets.json
 
-# Ignore everything in the www folder except for the production theme
+# Ignore everything in the www folder except for the gitignore for deploy
 /www/
 !/www/.gitignore
-!/www/public/
-!/www/public/theme/
-!/www/public/theme/base-inuitcss
