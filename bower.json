@@ -13,7 +13,7 @@
     "test",
     "tests"
   ],
-  "dependencies": {
+  "devDependencies": {
     "inuitcss": "^6.0.0-beta.5"
   }
 }
