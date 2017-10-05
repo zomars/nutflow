@@ -16,6 +16,9 @@ if (!process.env.CI) {
 
   gulp.task('deploy', () => {
     var deployMethod = config.deploy.method
+    gulp.src(config.deploy.src)
+      .pipe($.rename('.deploy.yml'))
+      .pipe(gulp.dest(config.deploy.dest))
     gulp.start('deploy-' + deployMethod)
   })
 }

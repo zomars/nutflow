@@ -32,7 +32,9 @@ var config = {
 
   deploy: {
     method: 'rsync', // rsync, aws or ghpages
-    target: target
+    target: target,
+    src: './config/deploy.yml',
+    dest: './www/'
   },
 
   fonts: {
