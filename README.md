@@ -37,6 +37,7 @@ $ gulp
 
 When `gulp` is ran, Nutflow will look through all your source folders and execute the following tasks:
 
+- `configs` - Copies configuration files to `./www/app/config`
 - `clean` - to clean the `dev` directory
 - `lint:js` - Check for code formats
 - `images` - Copies images to `dev` folder
