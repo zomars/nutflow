@@ -5,19 +5,21 @@ var env = environment.env
 var src = environment.src
 var dest = environment.dest
 var target = environment.target
+var proxy = (environment.proxy) ? environment.proxy : '0.0.0.0:8000';
 
 var config = {
   env: env,
   src: src,
   dest: dest,
   target: target,
+  proxy: proxy,
 
   autoprefixer: {
     browsers: ['last 2 versions']
   },
 
   browserSync: {
-    proxy: '0.0.0.0:8000',
+    proxy: proxy,
     open: false
   },
 

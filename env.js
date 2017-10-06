@@ -5,6 +5,7 @@ var src = './src'
 var dest = './www/public/theme/base-inuitcss_dev'
 var env = 'dev'
 var target = 'staging'
+var proxy  = null;
 
 if (processArgs.prod || processArgs.production) {
   dest = './www/public/theme/base-inuitcss'
