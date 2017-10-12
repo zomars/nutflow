@@ -25,5 +25,5 @@ jspm_packages
 /www/
 /composer.phar
 
-#Ignore env.js
-env.js
+#Ignore .secrets.json
+.secrets.json
