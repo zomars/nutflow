@@ -24,3 +24,6 @@ jspm_packages
 # Ignore everything in the www folder except for the gitignore for deploy
 /www/
 /composer.phar
+
+#Ignore .secrets.json
+.secrets.json

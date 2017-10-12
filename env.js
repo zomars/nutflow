@@ -16,5 +16,5 @@ module.exports = {
   env: env,
   src: src,
   dest: dest,
-  target: target
+  target: target,
 }

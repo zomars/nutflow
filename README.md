@@ -50,6 +50,8 @@ When `gulp` is ran, Nutflow will look through all your source folders and execut
 
 You can find the configurations for each of these tasks in `gulp/task/task-name.js`.
 
+You can also duplicate and rename the 'secrets.json.dist' file as '.secrets.json', to keep off private configurations from git.
+
 Once the command has finished executing, you can navigate to `localhost:3000` to view your website. Everything here is placed in the `www` folder.
 
 ### Writing Sass
