@@ -1,5 +1,5 @@
 {
-  "name": "boltflow",
+  "name": "nutflow",
   "version": "1.0.0",
   "description": "Workflow for creating Bolt CMS sites using Gulp, InuitCSS, SCSS and Webpack",
   "main": "index.js",
@@ -59,6 +59,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org:anclastudio/boltflow.git"
+    "url": "git+ssh://git@github.com:zomars/nutflow.git"
   }
 }

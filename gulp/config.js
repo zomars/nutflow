@@ -1,25 +1,27 @@
 const webpackConfig = require('../webpack.conf')
 const environment = require('../env')
+const fs = require('fs')
+
+// Check if secrets file exists
+var secrets = fs.existsSync('./.secrets.json') ? JSON.parse(fs.readFileSync('./.secrets.json')) : null
 
 var env = environment.env
 var src = environment.src
 var dest = environment.dest
 var target = environment.target
-var proxy = (environment.proxy) ? environment.proxy : '0.0.0.0:8000';
 
 var config = {
   env: env,
   src: src,
   dest: dest,
   target: target,
-  proxy: proxy,
 
   autoprefixer: {
     browsers: ['last 2 versions']
   },
 
   browserSync: {
-    proxy: proxy,
+    proxy: secrets ? secrets.proxy : '0.0.0.0:8000',
     open: false
   },
 
