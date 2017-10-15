@@ -68,7 +68,7 @@ gulp.task('deploy-simple', (cb) => {
 })
 
 gulp.task('composer', (cb) => {
-  const child = exec(`ssh ${deploy.username}@${deploy.host} composer update -d ${deploy.root}`)
+  const child = exec(`ssh ${deploy.username}@${deploy.host} composer update -d ${deploy.root}`, {async: true})
 
   child.stdout.on('data', (data) => {
     console.log('stdout: ' + data)
