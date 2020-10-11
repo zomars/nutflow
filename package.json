@@ -41,7 +41,7 @@
     "gulp-util": "^3.0.6",
     "jshint": "^2.8.0",
     "jshint-stylish": "^2.0.1",
-    "lodash": "^4.13.1",
+    "lodash": "^4.17.19",
     "marked": "^0.3.3",
     "minimist": "^1.1.1",
     "moment": "^2.11.1",
